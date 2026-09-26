@@ -16,4 +16,7 @@ public class AppTest {
     void testSub() {
     	assertEquals(15,app.sub(20,5));
     }
+    void testmut() {
+    	assertEquals(30,app.mut(5, 6));
+    }
 }
